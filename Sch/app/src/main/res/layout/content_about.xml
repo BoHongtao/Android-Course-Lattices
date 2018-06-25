@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.bohongtao.sch.aboutActivity"
+    tools:showIn="@layout/activity_about">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="分工"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv1"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="40px"
+            android:textSize="30dp"
+            android:layout_marginTop="30px"
+            android:text="薄洪涛"
+            />
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="40px"
+            android:textSize="30dp"
+            android:layout_marginTop="30px"
+            android:text="李艳兰"
+            />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="40px"
+            android:textSize="30dp"
+            android:layout_marginTop="30px"
+            android:text="陈丽雪"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

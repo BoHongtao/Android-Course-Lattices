@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.bohongtao.sch.funActivity"
+    tools:showIn="@layout/activity_fun">
+    <ImageView
+        android:id="@+id/tv1"
+        android:layout_weight="1"
+        android:layout_width="0px"
+        android:layout_height="600px"
+        android:background="@mipmap/duo"
+        />
+    <ImageView
+        android:id="@+id/tv2"
+        android:layout_weight="1"
+        android:layout_width="0px"
+        android:layout_height="600px"
+        android:background="@mipmap/re"
+        android:text="2" />
+    <ImageView
+        android:id="@+id/tv3"
+        android:layout_weight="1"
+        android:layout_width="0px"
+        android:layout_height="600px"
+        android:background="@mipmap/mi"
+        />
+
+    <ImageView
+        android:id="@+id/tv4"
+        android:layout_weight="1"
+        android:layout_width="0px"
+        android:layout_height="600px"
+        android:background="@mipmap/fa"
+        />
+    <ImageView
+        android:id="@+id/tv5"
+        android:layout_weight="1"
+        android:layout_width="0px"
+        android:layout_height="600px"
+        android:background="@mipmap/sao"
+
+        />
+    <ImageView
+        android:id="@+id/tv6"
+        android:layout_weight="1"
+        android:layout_width="0px"
+        android:layout_height="600px"
+        android:background="@mipmap/la"
+        />
+    <ImageView
+        android:id="@+id/tv7"
+        android:layout_weight="1"
+        android:layout_width="0px"
+        android:layout_height="600px"
+        android:background="@mipmap/xi"
+        />
+
+</LinearLayout>
